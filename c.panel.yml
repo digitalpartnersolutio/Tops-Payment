@@ -1,0 +1,7 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/n1571193/public_html/
+    - git clone https://github.com/digitalpartnersolutio/Tops-Payment.git $DEPLOYPATH
+    - /bin/cp $DEPLOYPATH/<Tops-Payment>/* $DEPLOYPATH
+    - rm -rf $DEPLOYPATH/<Tops-Payment>/
