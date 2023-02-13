@@ -1,10 +1,8 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/n1571193/public_html/topsserver.com
-    - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp privacy.html $DEPLOYPATH
-    - /bin/cp -R css $DEPLOYPATH
-    - /bin/cp -R fonts $DEPLOYPATH
-    - /bin/cp -R img $DEPLOYPATH
-    - /bin/cp -R js $DEPLOYPATH
+    - name: Deploy Website
+      export GITREPO=https://github.com/digitalpartnersolutio/Tops-Payment.git
+      export DEPLOYPATH=/home/n1571193/public_html/topsserver.com/
+      /bin/rm -rf $DEPLOYPATH
+      /bin/git clone $GITREPO $DEPLOYPATH
