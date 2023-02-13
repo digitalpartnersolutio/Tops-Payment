@@ -1,7 +1,10 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/example/public_html/
-    - git clone https://github.com/<username>/<repository>.git $DEPLOYPATH
-    - /bin/cp $DEPLOYPATH/<repository>/* $DEPLOYPATH
-    - rm -rf $DEPLOYPATH/<repository>/
+    - export DEPLOYPATH=/home/n1571193/public_html/topsserver.com
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp privacy.html $DEPLOYPATH
+    - /bin/cp -R css $DEPLOYPATH
+    - /bin/cp -R fonts $DEPLOYPATH
+    - /bin/cp -R img $DEPLOYPATH
+    - /bin/cp -R js $DEPLOYPATH
