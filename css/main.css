@@ -147,6 +147,13 @@ p{
     line-height: 1.5;
     margin-bottom: 15px;
 }
+
+p.baner{
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    width:75%;
+}
 a, a:hover{
     text-decoration: none;
 }
@@ -582,6 +589,19 @@ ul.nav li.phone i{
     margin-right: 5px;
 }
 
+ul.nav li.download{
+    font-size: 14px;
+    font-family: "Poppins",sans-serif;
+    color: #263a4f;
+    font-weight: 600px;
+    line-height: 80px;
+    padding-left: 50px;
+}
+ul.nav li.download i{
+    color: #E31436;
+    margin-right: 5px;
+}
+
 ul.nav > li > a:hover,
 ul.nav > li > a:focus,
 ul.nav > li > a.active{
@@ -918,9 +938,18 @@ ul.nav > li > a.active{
 }
 .service-content{
     padding: 0 30px 30px 30px;
-    
-    margin-top: -30px;
+    overflow:auto;
+    height:200px;  
+    margin-top: 20px;
 } 
+.service-content a{
+    position:relative;
+    top: 5px;
+  left: 7px;
+  z-index: 1;
+} 
+
+
 .service-content i{
     color: #fff;
     display: inline-block;
@@ -1011,7 +1040,7 @@ ul.nav > li > a.active{
     z-index: 1;
 }
 .project-item .overlay{
-    background-color: rgba(192,202,2,0.9);
+    background-color: rgba(255,18,57,0.8);
     content: "";
     position: absolute;
     width: 100%;
@@ -1599,7 +1628,7 @@ ul.nav > li > a.active{
 }
 .privacy-content .privacy-info{
     /* font-size: 18px; */
-    padding-left: 50px;
+    padding-left: 10px;
     text-align: left;
     color: #0E151C;
 }
