@@ -455,6 +455,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
     padding: 8px;
     border-radius: 1px;
 }
+
 .navbar-header .nav-btn .icon-bar{
     background-color: #fff;
     width: 18px;
@@ -1477,6 +1478,7 @@ ul.nav > li > a.active{
     color: #fff;
     letter-spacing: -2px;
     margin-bottom: 20px;
+    width:60%;
 }
 
 
