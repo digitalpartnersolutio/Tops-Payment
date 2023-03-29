@@ -694,7 +694,7 @@ ul.nav > li > a.active{
 .about-content .default-btn{
     margin-top: 40px;
 }
-.about-bg{
+/* .about-bg{
     background-image: url(../img/Banner/AgenPulsa1.png);
     background-position: top right;
     background-repeat: no-repeat;
@@ -703,7 +703,27 @@ ul.nav > li > a.active{
     top: 0;
     right: 0;
     position: relative;
+} */
+
+.about-bg {
+  background-position: top right;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+  top: 0;
+  right: 0;
+  position: relative;
 }
+
+.owl-carousel .owl-stage-outer {
+  overflow: hidden;
+}
+
+.owl-nav {
+  display: none;
+}
+
+
 .dots{
     position: absolute;
     left: -80px;
@@ -866,7 +886,7 @@ ul.nav > li > a.active{
 
 /* About Style 4*/
 .about-section .about-slider-wrap{
-    background-image: url(../img/about-slider-bg.jpg);
+   
     background-repeat: no-repeat;
     background-position: left top;
     background-size: 80%;
@@ -1466,8 +1486,8 @@ ul.nav > li > a.active{
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    width: 100%;
-    height: 650px;
+    max-width: 100%;
+    height: 500px;
     display: flex;
     align-items: center;
     position: relative;
@@ -2107,6 +2127,8 @@ blockquote span{
     line-height: 28px;
     margin-bottom: 5px;
 }
+
+
 .author-box .social-icon{}
 .author-box .social-icon li{
     display: inline-block;
@@ -2408,6 +2430,39 @@ blockquote span{
     color: #ababc7;
     margin: 0;
 }  
+
+.social-icons {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-right: 10px;
+  
+}
+
+.social-icons li:last-child {
+  margin: 0;
+}
+
+.social-icons a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+  border-radius: 50%;
+  background-color: #333;
+  transition: all 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+  transform: translateY(-5px);
+}
 
 /* ==========================================================================
    Scroll To Top
