@@ -15,6 +15,11 @@
         display: flex;
         align-items: center;
     }
+    img{
+    border: none;
+    outline:none;
+    max-width: 90%;
+}
     
     .menu-btn,
     .js #mainmenu {
@@ -59,6 +64,11 @@
         font-size: 12px;
         line-height: 22px;
     }
+    img{
+    border: none;
+    outline:none;
+    max-width: 80%;
+}
     h1{
         font-size: 30px;
     }
